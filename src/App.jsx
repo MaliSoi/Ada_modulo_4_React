@@ -6,6 +6,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import UserProfile from "./components/UserProfile";
 import TaskList from "./components/TaskList";
 import Input from "./components/Input";
+import Button from "./components/Button";
 
 
 
@@ -19,9 +20,13 @@ function App() {
       <WelcomeMessage />
       <UserProfile />
       <TaskList />
-      <h2>Formulario de prueba</h2>
+      <h2>Ejercicio 1- Input</h2>
       <Input type="text" placeholder="Escribe tu nombre"/>
       <Input type="email" placeholder="Correo de email"/>
+      
+      <h2>Ejercicio 2 - Button</h2>
+      <Button label="Enviar" disabled={false}/>
+      <Button label="Deshabilitado" disabled={true}/>
 
 
       <Footer />

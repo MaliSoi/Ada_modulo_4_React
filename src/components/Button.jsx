@@ -4,6 +4,17 @@ export default function Button ({label, disabled}) {
     return (
         <button
         disabled={disabled}
-        className={`px-4 py-2 reounded text-white font semibold`}
-    )
+        style= {{
+            backgroundColor: disabled ? "#ccc" : "#007bff",
+            color:"white",
+            border: "none",
+            padding: "8px 12 px",
+            borderRadius: "4px",
+            margin: "6px",
+            cursor: disabled ? "not-allowed" : "pointer",
+        }}
+        >
+            {label}
+        </button>
+    );
 }
