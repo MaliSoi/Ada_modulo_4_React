@@ -5,6 +5,7 @@ import Greeting from './components/Greeting';
 import WelcomeMessage from "./components/WelcomeMessage";
 import UserProfile from "./components/UserProfile";
 import TaskList from "./components/TaskList";
+import Input from "./components/Input";
 
 
 
@@ -18,6 +19,9 @@ function App() {
       <WelcomeMessage />
       <UserProfile />
       <TaskList />
+      <h2>Formulario de prueba</h2>
+      <Input type="text" placeholder="Escribe tu nombre"/>
+      <Input type="email" placeholder="Correo de email"/>
 
 
       <Footer />
