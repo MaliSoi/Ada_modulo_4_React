@@ -46,9 +46,16 @@ function App() {
       <h2>Ejercicio 4 - LoginForm</h2>
       <LoginForm/>
 
-
+      <h2>Ejercicio 5 - Button con variant</h2>
+      <Button label="Enviar" variant="primary" disabled={false}/>
+      {/* Muestro los otros variants */}
+      <Button label="Secondary" variant="secondary" disabled={false}/>
+      <Button label="Danger" variant="danger" disabled={false}/>
+      <Button label="Disabled" variant="primary" disabled={true}/>
+      
       <Footer />
-   </div>
+
+  </div>
   );
 }
 
