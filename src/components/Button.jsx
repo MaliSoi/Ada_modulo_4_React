@@ -10,7 +10,7 @@ export default function Button ({label, disabled}) {
             border: "none",
             padding: "8px 12 px",
             borderRadius: "4px",
-            margin: "6px",
+            margin: "6px 0",
             cursor: disabled ? "not-allowed" : "pointer",
         }}
         >
