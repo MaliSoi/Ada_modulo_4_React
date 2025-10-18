@@ -2,6 +2,8 @@ import React from "react";
 import LoginStatus from "./components/LoginStatus";
 import Notifications from "./components/Notifications";
 import LoadingStatus from "./components/LoadingStatus";
+import Messages from "./components/Messages";
+
 
 function App () {
   const user = {
@@ -11,6 +13,8 @@ function App () {
 
 //simulación de estado de carga de datos
 const data = true; //cambio a false para ver "Loading..."
+
+const hasMessages = true; //probar con false
 
    return (
     <div>
@@ -23,6 +27,9 @@ const data = true; //cambio a false para ver "Loading..."
 
    <h2>Ejercicio 3 - Carga de datos</h2>
    <LoadingStatus isLoading={!data}/>
+
+   <h2>Ejercicio 4 - hay mensajes con &&</h2>
+   <Messages hasMessages={hasMessages}/>
    
    
    </div>
