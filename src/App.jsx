@@ -1,10 +1,6 @@
 import React from "react";
 import LoginStatus from "./components/LoginStatus";
-
-
-
-
-
+import Notifications from "./components/Notifications";
 
 
 function App () {
@@ -15,8 +11,14 @@ function App () {
 
    return (
     <div>
-   <h1>Ejercicio 1 - if/else</h1>
+   <h2>Ejercicio 1 - if/else</h2>
    <LoginStatus name={user.name} isLoggedIn={user.isLoggedIn}/>
+   
+   
+   <h2>Ejercicio 2 - null</h2>
+   <Notifications count={0}/> 
+   
+   
    </div>
   );
 }
