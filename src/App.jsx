@@ -1,27 +1,31 @@
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Greeting from './components/Greeting';
-import WelcomeMessage from "./components/WelcomeMessage";
-import UserProfile from "./components/UserProfile";
-import TaskList from "./components/TaskList";
-
-
+import './index.css';
+// import ControlledTextBase from './components/ControlledTextBase';
+// import CounterWithStepBase from './components/CounterWithStepBase';
+// import LiveFilterListBase from './components/LiveFilterListBase';
+import SimpleFormBase from './components/SimpleFormBase';
+// import SkillsChecklistBase from './components/SkillsChecklistBase';
+// import TodoListBase from './components/TodoListBase';
+// import PasswordToggle from './components/PasswordToggle';
+// import FormWithRef from './components/FormWithRef';
+// import { FormNoCtr } from './components/FormNoCtr';
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className="wrapper">
+      <h1>🚀 Práctica de React - Componentes Base</h1>
 
+      {/* <ControlledTextBase />
+      <CounterWithStepBase />
+      <LiveFilterListBase />
+      <SkillsChecklistBase />
+      
+      <TodoListBase />
+      <PasswordToggle />
+      <FormWithRef/>
+      <FormNoCtr/> */}
+      <SimpleFormBase />
 
-      <Greeting />
-      <WelcomeMessage />
-      <UserProfile />
-      <TaskList />
-
-
-      <Footer />
-   </div>
+    </div>
   );
 }
 
