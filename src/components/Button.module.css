@@ -19,3 +19,21 @@
 .btn:hover{
     opacity:0.9;
 }
+
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin: 5px;
+}
+
+.primary {
+  background-color: #3498db;
+}
+
+.secondary {
+  background-color: #2ecc71;
+}

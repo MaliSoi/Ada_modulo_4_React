@@ -1,0 +1,21 @@
+.item {
+  padding: 10px 16px;
+  border-radius: 6px;
+  margin: 6px 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+/* Estilos según tipo */
+.error {
+  background-color: #e74c3c;
+}
+
+.success {
+  background-color: #2ecc71;
+}
+
+.warning {
+  background-color: #f1c40f;
+  color: black;
+}
