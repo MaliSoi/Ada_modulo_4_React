@@ -3,6 +3,7 @@ import Button from "./components/Button";
 import Card from "./components/Card";
 import ItemList from "./components/ItemList";
 import Tarjeta from "./components/Tarjeta";
+import CardProducto from "./components/CardProducto";
 
 
 
@@ -49,7 +50,11 @@ function App() {
       <Button variant="primary">Botón Primary por defecto</Button>
       <Button variant="secondary">Botón Secondary</Button>
       
-       
+       <h2>Actividad 5 - Card de productos</h2>
+
+       <CardProducto titulo="Producto 1" />
+       <CardProducto titulo="Producto 2" />
+
        </div>
   );
 }

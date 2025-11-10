@@ -1,0 +1,51 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 12px;
+  text-align: center;
+  background-color: #f9f9f9;
+  overflow:hidden;  /* corta contenido que exceda */
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.imagen {
+  width: 100%;          /* ocupa todo el ancho de la card */
+  height: 120px;        /* altura fija o ajustable */
+  object-fit:contain;   /* se ve toda la imagen sin recortar */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Botón base */
+.btn3 {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Botón cuando no está en carrito */
+.agregar {
+  background-color: #3498db;
+}
+
+/* Botón cuando ya está en carrito */
+.agregado {
+  background-color: #2ecc71;
+}

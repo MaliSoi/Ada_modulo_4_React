@@ -9,6 +9,14 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.imagen {
+  width: 100%;          /* ocupa todo el ancho de la card */
+  height: 120px;        /* altura fija o ajustable */
+  object-fit: contain;   /* se ve toda la imagen sin recortar */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
