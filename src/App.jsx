@@ -1,28 +1,20 @@
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Greeting from './components/Greeting';
-import WelcomeMessage from "./components/WelcomeMessage";
-import UserProfile from "./components/UserProfile";
-import TaskList from "./components/TaskList";
-
+import ContactList from './ContactList.jsx';
+import ContactCard from './ContactList.jsx';
 
 
 function App() {
+  const contactos = [
+    {nombre: "Juan Rama", teléfono: "(11)5678-8976"},
+    {nombre: "Teresa Toya", teléfono: "(11)5987-2345"},
+    {nombre: "Ramón Milano", teléfono: "(11)3456-9854"},
+    ];
+ 
   return (
-    <div>
-      <Header />
-
-
-      <Greeting />
-      <WelcomeMessage />
-      <UserProfile />
-      <TaskList />
-
-
-      <Footer />
-   </div>
-  );
-}
+    <div className='app-container'>
+      <h1>Lista de Contactos</h1>
+      <ContactList contactos={contactos}/>
+    </div>
+   );
+};
 
 export default App;
