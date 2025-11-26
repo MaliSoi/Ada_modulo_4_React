@@ -8,7 +8,7 @@ function ContactList({contactos}) {
               <ContactCard
               key={index}   //cada elemnto necesita una key única
               name={contacto.nombre}
-              phone={contacto.teléfono}
+              phone={contacto.telefono}
             />
             ))}
         </div>
